@@ -1,0 +1,41 @@
+.carousel-container{
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    height: 400px;
+}
+.categoryTitle{
+    position: absolute;
+    left: 170px;
+    
+}
+.categoryTitleBox{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 105px;
+    
+}
+.more{
+    opacity: 0.8;
+}
+.more:hover{
+    color: rgb(93, 150, 255);
+}
+.siliderBox{
+    background-color: black;
+    
+}
+@media (max-width: 768px) {
+
+.categoryTitleBox{
+    width: 100%;
+    margin: 0;
+}
+.categoryTitle{
+    left: 0;
+}
+
+
+}

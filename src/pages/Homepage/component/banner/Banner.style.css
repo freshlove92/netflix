@@ -1,0 +1,59 @@
+.banner{
+    width: 100%;
+    height: 66vh;
+    background-position: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner:before{
+    content: '';
+    background: linear-gradient(to top, black, transparent);
+    position: absolute;
+    left: 0;
+    height: 66vh;
+    width: 100%;
+}
+.banner-text-area{
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    padding: 2rem;
+
+}
+.banner-text-area > *{
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+.banner-text-area{
+    position: absolute;
+    z-index: 3;
+    top: 350px;
+
+    width: 90%;
+    text-align: left;
+    padding: 2rem;
+
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    white-space: normal;
+    line-height: 1.2;
+    height: 9.5rem;
+
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+}
+
+}

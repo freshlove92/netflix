@@ -1,0 +1,31 @@
+.pagelink{
+ color: white;
+ 
+}
+.navbar{
+    background-color: black;
+    /* box-shadow: 0 4px 4px -4px white; */
+
+}
+.logo{
+    /* background-image: url(C:\Users\user\Desktop\React\netflix\src\layout\img\WAVVE_BI_combination_white.png); */
+    width: 150px;    
+}
+.Link{
+    text-decoration: none;
+    color: white;
+}
+.Link:hover{
+    color: rgb(42, 159, 255);
+}
+@media (max-width: 768px) {
+.Offcanvas{
+     transform: translateY(-200%)!important;
+     position: fixed;
+}
+.offcanvas{
+    top: auto!important;
+    bottom: 0!important; /* 화면 아래부터 시작 */
+    height: 50%!important; /* Offcanvas의 높이 설정 */
+}
+}
